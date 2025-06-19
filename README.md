@@ -21,8 +21,6 @@ This project explores a lightweight yet powerful deep learning model for early-s
 - **Spectra**: 360 Raman spectra (120 per group).
 - **Measured Range**: 600–1800 cm⁻¹.
 
-![Dataset Overview](./Paper/Figure_Dataset.png)
-
 ---
 
 ## 🧠 Model Architecture
@@ -33,11 +31,13 @@ This project explores a lightweight yet powerful deep learning model for early-s
   - Flattening layer
   - Fully connected layers (ReLU → Softmax)
 
-![Model Architecture](./Paper/Figure_Model.png)
+![Model Architecture](./Paper/Model_Architecture.png)
 
 ---
 
 ## 🥇 Results
+
+- **Accuracy**
 
 | Input Type    | Model              | Accuracy |
 |---------------|--------------------|----------|
@@ -47,6 +47,10 @@ This project explores a lightweight yet powerful deep learning model for early-s
 | Preprocessed  | Single-kernel CNN  | 91.4%    |
 
 - Demonstrated superiority over traditional PC-LDA and single-kernel CNNs.
+
+- **Kernel Features**
+
+![Kernel Features](./Paper/Kernel_Features.png)
 
 ---
 
@@ -58,7 +62,7 @@ This project explores a lightweight yet powerful deep learning model for early-s
 | 1080              | p53 protein    | Increase = DNA damage response   |
 | 1447              | Cholesterol    | Decrease = lipid degradation     |
 
-![Histological Markers](./Paper/Figure_Histology.png)
+![Histological Markers](./Paper/Histological_Markers.png)
 
 ---
 
